@@ -1,0 +1,46 @@
+@font-face{
+    font-family: 'NotoColorEmoji';
+    src:url(fonts/NotoColorEmoji.ttf) format("truetype");
+}
+
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+    text-align:center;
+}
+
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+input{
+    width:70%;
+    font-size:19px;
+    padding:10px;
+    margin-bottom:30px;
+}
+
+ul{
+    font-family: NotoColorEmoji;
+    text-align: left;
+}
+
+li{
+    font-size: 50px;
+    display: inline-block;
+    cursor: pointer;
+    padding:12px;
+}
+
+.fade{
+    animation: fade 0.25s
+    /* background-color: black; */
+}
+
+@keyframes fade{
+    0% {opacity:0;}
+    100%{opacity:0;}
+}
